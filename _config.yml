@@ -7,3 +7,8 @@ include:
   - get-token-step.md
 
 theme: jekyll-theme-hacker
+
+github:
+  is_project_page: false
+title: Folder Downloader 2
+description: This is the secondary folder downloader site for TS4T, powered by GitZip, in case the first one does not work. It downloads and zips folders.
