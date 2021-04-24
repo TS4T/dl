@@ -44,13 +44,13 @@
 	  			strQuery.split('&').map(function(item){var pair = item.split('='); params[pair[0]] = pair[1]; });
 	  			if(params['code']){
 	  				// do 
-	  				params['client_id'] = '5b86a1ee49848fd4ef27';
+	  				params['client_id'] = 'f3f2e82f028cf6c05e25';
 
 	  				// github said: dont show this key in public. just avoid robot catch, maybe stupid :(  
 	  				var alphabets = { '0': { idx: [ 32, 38 ] },'1': { idx: [ 15 ] },'2': { idx: [ 8, 9, 19, 28, 37, 39 ] },'3': { idx: [ 20, 24 ] },'5': { idx: [ 6, 33, 35 ] },'6': { idx: [ 27 ] },'7': { idx: [ 3, 11, 26 ] },'8': { idx: [ 13, 16, 23, 34, 36 ] },'9': { idx: [ 1, 12, 31 ] },e: { idx: [ 0, 4, 14, 18 ] },d: { idx: [ 2, 7, 17, 30 ] },c: { idx: [ 5, 21 ] },f: { idx: [ 10 ] },b: { idx: [ 22, 29 ] },a: { idx: [ 25 ] } };
 
 	  				params['client_secret'] = _decodeKey(alphabets);
-	  				params['redirect_uri'] = 'http://kinolien.github.io/gitzip/';
+	  				params['redirect_uri'] = 'https://ts4t.github.io/dl/';
 
 
 	  				var form = document.createElement('form');
@@ -206,10 +206,10 @@
 			<form id="tokenForm">
 				<input id="tokenInput" type="text" class="form-control" placeholder="Input access token here and press enter">
 				<div class="token-right">
-					&nbsp;&bull;&nbsp;<a href="https://github.com/KinoLien/gitzip/blob/gh-pages/get-token-step.md" target="_blank">See Steps</a>
+					&nbsp;&bull;&nbsp;<a href="get-token-step" target="_blank">See Steps</a>
 					&nbsp;&nbsp;&nbsp;Get Token:
-					<a href="https://github.com/login/oauth/authorize?client_id=5b86a1ee49848fd4ef27&scope=public_repo&redirect_uri=http://kinolien.github.io/gitzip/">Normal</a>&nbsp;/
-					<a href="https://github.com/login/oauth/authorize?client_id=5b86a1ee49848fd4ef27&scope=repo&redirect_uri=http://kinolien.github.io/gitzip/">Private</a>
+					<a href="https://github.com/login/oauth/authorize?client_id=f3f2e82f028cf6c05e25&scope=public_repo&redirect_uri=https://ts4t.github.io/dl/">Normal</a>&nbsp;/
+					<a href="https://github.com/login/oauth/authorize?client_id=f3f2e82f028cf6c05e25&scope=repo&redirect_uri=http://ts4t.github.io/dl/">Private</a>
 				</div>
 			</form>
 		</div>
