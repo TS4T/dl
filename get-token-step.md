@@ -1,3 +1,8 @@
+---
+layout: default
+title: Get Token Steps
+---
+
 # Get Token Steps.
 
 ### Step 1
