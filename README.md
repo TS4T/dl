@@ -1,3 +1,6 @@
+# NOT WORKING
+This will probably not work, as I cannot seem to figure out how to hide the app's secret, which is required for the app to function. If anyone knows, feel free to inform me, too.
+
 # gitzip
 
 ### Description
